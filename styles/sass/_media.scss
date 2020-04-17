@@ -1,0 +1,106 @@
+@media (max-width: 1024px) {
+    .brandContainer{
+        display: flex;
+    }
+
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logoBox {
+        width: 80%;
+    }
+
+    .bottomContainer {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 7.8rem;
+    }
+
+    p, a {
+        font-size: 3rem;
+    }
+
+    li {
+        margin-right: 85px;
+    }
+
+    .bottomContainer {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 640px) {
+    .links {
+        margin-top: 50px;
+    }
+    
+    ul {
+        flex-direction: column;
+        li, li:nth-child(3) {
+            margin: 25px 0px;
+        }
+    }
+
+    a {
+        font-size: 3.7rem;
+    }
+}
+
+@media (max-width: 540px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 2.8rem;
+    }
+
+    .brandContainer{
+        flex-direction: column;
+    }
+
+    .subHeading {
+        padding-top: 20px;
+    }
+
+    li {
+        margin: 10px;
+    }
+
+    a {
+        font-size: 2.3rem;
+    }
+
+    a:after {
+        font-size: 1.5rem;
+    }
+}
