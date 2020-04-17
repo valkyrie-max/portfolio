@@ -1,0 +1,55 @@
+// h1 = 105px;
+// h2 = 115px;
+// p, a = 45px; 
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1280px;
+}
+
+h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0; 
+    text-transform: uppercase;
+    color: $textColor;
+}
+
+h2, p, a {
+    font-family: $primaryFont;
+}
+
+h1 {
+    font-family: $secondaryFont;
+    font-size: 10.5rem;
+}
+
+h2 {
+    font-size: 11.5rem;
+}
+
+p {
+    font-size: 4.5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}

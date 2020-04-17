@@ -1,3 +1,9 @@
-// h1 = 105px;
-// h2 = 115px;
-// p, a = 45px; 
+header {
+    min-height: 100vh;
+    background: $backgroundColor;
+}
+
+.logoBox {
+    width: 35%;
+    background: $logoColor;
+}
