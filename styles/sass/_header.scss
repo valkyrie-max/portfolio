@@ -1,0 +1,29 @@
+header {
+    min-height: 100vh;
+    padding: 50px 0px;
+    background: $backgroundColor;
+}
+
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logoBox {
+    width: 30%;
+    margin: 0 auto;
+    background: $logoColor;
+}
+
+.subHeading, .links {
+    display: inline-block;
+}
+
+.subHeading {
+    padding-top: 50px;
+}
+
+.links {
+    margin-top: 120px;
+}
